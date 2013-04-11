@@ -10,14 +10,9 @@
         { "name": "Rhapsody Project", "homepage": "https://github.com/rhapsody-project/phing-bundle/contributors" }
     ],
     "require": {
-        "phing/phing": "dev-master",
-        "symfony/http-foundation": ">=2.1,<2.3-dev",
-        "symfony/form": ">=2.1,<2.3-dev",
-        "symfony/validator": ">=2.1,<2.3-dev",
-        "symfony/security": ">=2.1,<2.3-dev",
-        "symfony/routing": ">=2.1,<2.3-dev",
-        "symfony/config": ">=2.1,<2.3-dev",
-        "symfony/console": ">=2.1,<2.3-dev"
+        "phing/phing": "*",
+        "symfony/config": ">=2.1",
+        "symfony/console": ">=2.1"
     },
     "autoload": {
         "psr-0": { "Rhapsody\\PhingBundle": "" }
