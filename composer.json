@@ -1,23 +1,16 @@
 {
     "name": "rhapsody-project/phing-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony RhapsodyPhingBundle",
+    "description": "Rhapsody Project PhingBundle for Symfony",
     "keywords": ["phing", "rhapsody", "bootstrap"],
-    "homepage": "http://rhapsody-project.org/bundles/phing",
+    "homepage": "https://github.com/rhapsody-project/phing-bundle",
     "license": "MIT",
     "authors": [
-        {
-            "name": "Sean W. Quinn",
-            "email": "sean.quinn@rhapsody-project.org",
-            "homepage": "http://rhapsody-project.org"
-        },
-        {
-            "name": "Rhapsody Community",
-            "homepage": "https://github.com/rhapsody-project/RhapsodyPhingBundle/contributors"
-        }
+        { "name": "Sean Quinn", "email": "sean.quinn@extesla.com" },
+        { "name": "Rhapsody Project", "homepage": "https://github.com/rhapsody-project/phing-bundle/contributors" }
     ],
     "require": {
-		"phing/phing": "dev-master",
+        "phing/phing": "dev-master",
         "symfony/http-foundation": ">=2.1,<2.3-dev",
         "symfony/form": ">=2.1,<2.3-dev",
         "symfony/validator": ">=2.1,<2.3-dev",
